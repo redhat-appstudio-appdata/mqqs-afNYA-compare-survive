@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: mqqs
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ee-mcombi-tenant/mqqs/mqqs@sha256:2fc8fae0703c600eda49d3c1d5f46f9a26e1da1538b0119ef799b079a0fe9dfd
+      - image: quay.io/redhat-user-workloads/rh-ee-mcombi-tenant/mqqs/mqqs@sha256:90f1c3a32b97115a3dcdedd63fc22b40f643f687aeb70527d09770780522b86f
         name: my-java-quarkus
         ports:
         - containerPort: 8081

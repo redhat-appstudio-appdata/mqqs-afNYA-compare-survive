@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: mqqs
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-ee-mcombi-tenant/mqqs/mqqs@sha256:2fc8fae0703c600eda49d3c1d5f46f9a26e1da1538b0119ef799b079a0fe9dfd
+        name: my-java-quarkus
+        resources: {}
+status: {}
